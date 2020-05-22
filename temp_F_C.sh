@@ -1,4 +1,4 @@
-#!/usr/bash
+#!/bin/bash
 temp_f=$1
 
 temp_processing=$(echo "scale=2; $temp_f - 32" | bc)
